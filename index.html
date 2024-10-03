@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Cartão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Verificador de Cartão de Crédito!</h1>
+        </header>
+    </div>
+
+    <div class="div">
+        <form id="creditCardForm">
+            <label for="cardHolderName">Nome do Titular:</label>
+            <input type="text" id="cardHolderName" name="cardHolderName" placeholder="Digite o Nome do Titular do Cartão" required>
+            <label for="cardNumber">Número do Cartão:</label>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="Digite o Número do Cartão" required>
+            <label for="expiryDate">Data de Validade:</label>
+            <input type="text" id="expiryDate" name="expiryDate" placeholder="Digite a Data de Validade" required>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="Digite o Número de Segurança" required>
+            <button type="submit">Validar Cartão!</button>
+        </form> 
+    </div>
+
+    <div id="result" class="result">Seu Cartão está Seguro!</div>
+
+    <div>
+        <footer>
+            Verificadores de Cartões
+        </footer>
+    </div>
+</body>
+</html>
