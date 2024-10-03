@@ -114,3 +114,71 @@ footer {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Ajustes para iPhones (até iPhone 14 Pro Max) */
+@media only screen and (max-width: 480px) {
+    /* Container principal */
+    .div {
+        width: 85%; /* Ocupa 85% da largura da tela */
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    /* Ajustes no título */
+    h1 {
+        font-size: 22px; /* Tamanho do título ajustado */
+    }
+
+    /* Ajustes nos campos de entrada */
+    input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Botão */
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Resultado */
+    .result {
+        font-size: 16px;
+    }
+
+    /* Rodapé */
+    footer {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+/* Ajustes específicos para iPhones maiores, como o iPhone 12/13/14 Pro Max */
+@media only screen and (min-width: 481px) and (max-width: 820px) {
+    .div {
+        width: 70%; /* Ocupa 70% da largura da tela */
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .result {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
